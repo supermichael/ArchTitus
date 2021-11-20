@@ -1,4 +1,6 @@
-# ArchTitus Installer Script
+# ArchTitusCH Installer Script
+
+Changed locale to CH.
 
 <img src="https://i.imgur.com/YiNMnan.png" />
 
