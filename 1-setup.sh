@@ -32,11 +32,12 @@ fi
 echo "-------------------------------------------------"
 echo "       Setup Language to US and set locale CH    "
 echo "-------------------------------------------------"
-sed -i 's/^#en_CH.UTF-8 UTF-8/en_CH.UTF-8 UTF-8/' /etc/locale.gen
+# Source: https://wiki.archlinux.de/title/Arch_Linux_auf_Deutsch_stellen
+sed -i 's/^#de_CH.UTF-8 UTF-8/de_CH.UTF-8 UTF-8/' /etc/locale.gen
 locale-gen
 timedatectl --no-ask-password set-timezone Europe/Zurich
 timedatectl --no-ask-password set-ntp 1
-localectl --no-ask-password set-locale LANG="en_US.UTF-8" LC_TIME="en_US.UTF-8"
+localectl --no-ask-password set-locale LANG="de_CH.UTF-8" LC_TIME="de_CH.UTF-8"
 
 # Set keymaps
 localectl --no-ask-password set-keymap de_CH-latin1
