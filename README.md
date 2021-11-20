@@ -1,6 +1,6 @@
 # ArchTitusCH Installer Script
 
-Changed locale to CH.
+Changed locale to CH - apart from that 1:1 as https://github.com/ChrisTitusTech/ArchTitus
 
 <img src="https://i.imgur.com/YiNMnan.png" />
 
@@ -45,5 +45,6 @@ __[Arch Linux Installation Guide](https://github.com/rickellis/Arch-Linux-Instal
 
 ## Credits
 
+- Fork of Archtitus https://github.com/ChrisTitusTech/ArchTitus
 - Original packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic
 - Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: <https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg>
